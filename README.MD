@@ -50,27 +50,27 @@ Essa estrutura é escalável, segura e projetada para facilitar a manutenção e
 
 
 ```mermaid
-graph TD;
-    A[Frontend (ReactJS/HTML/CSS)] --> B[Cloud CDN];
-    B --> C[Apigee (API Management)];
-    C --> D[Cloud Functions (Python Backend)];
-    D --> E[Cloud Firestore (Database)];
-    D --> F[Cloud Storage (File Storage)];
-    C --> G[Identity Platform (User Authentication)];
-    G --> H[Secret Manager (Credentials)];
-    D --> I[Cloud Pub/Sub (Event-Driven Messaging)];
-    D --> J[Cloud Tasks (Asynchronous Task Queue)];
-    K[Monitoring & Logging (Cloud Monitoring & Cloud Logging)] --> C;
-    K --> D;
-    K --> E;
-    K --> F;
-    L[Cloud Load Balancing] --> B;
-    M[Cloud Armor (Security)] --> L;
+graph TD
+    A[Frontend ReactJS/HTML/CSS] --> B[Cloud CDN]
+    B --> C[Apigee API Management]
+    C --> D[Cloud Functions Python Backend]
+    D --> E[Cloud Firestore Database]
+    D --> F[Cloud Storage File Storage]
+    C --> G[Identity Platform User Authentication]
+    G --> H[Secret Manager Credentials]
+    D --> I[Cloud Pub/Sub Event-Driven Messaging]
+    D --> J[Cloud Tasks Asynchronous Task Queue]
+    K[Monitoring & Logging Cloud Monitoring & Cloud Logging] --> C
+    K --> D
+    K --> E
+    K --> F
+    L[Cloud Load Balancing] --> B
+    M[Cloud Armor Security] --> L
 
     subgraph User Interaction
         A
     end
-    
+
     subgraph Backend Services
         C
         D
@@ -81,12 +81,13 @@ graph TD;
         I
         J
     end
-    
+
     subgraph Infrastructure
         B
         L
         M
         K
     end
+
 ```
 
