@@ -91,3 +91,5 @@ graph TD
 
 ```
 
+![Minha Imagem](.GCP.png)
+
