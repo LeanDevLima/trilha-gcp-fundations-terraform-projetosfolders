@@ -91,7 +91,7 @@ graph TD
 
 ```
 
-Caso não esteja visualizando a organização da estrutura [clique aqui](.GCP.png).
+Caso não esteja visualizando a organização da estrutura [clique aqui](GCP.png).
 
 ## **5. Conecte-se comigo:**
 
