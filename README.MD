@@ -93,6 +93,76 @@ graph TD
 
 Caso não esteja visualizando a organização da estrutura [clique aqui](GCP.png).
 
-## **5. Conecte-se comigo:**
+## **5. Orçamento:**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leanderson-dias-de-lima/)
+Para calcular o faturamento mensal do uso dessa estrutura no Google Cloud Platform, precisamos considerar os preços atuais dos serviços utilizados. Aqui está uma estimativa aproximada com base nos serviços mencionados:
+
+### **1. Cloud Functions (Python Backend)**
+- 100 execuções por dia = 3000 execuções por mês.
+- Custo: $0.20 por milhões de execuções.
+- Total: 0.003 * $0.20 = **$0.0006**
+
+### **2. Cloud Firestore (Database)**
+- 10 GB de dados armazenados.
+- Custo: $0.18 por GB por mês.
+- Total: 10 * $0.18 = **$1.80**
+
+### **3. Cloud Storage (File Storage)**
+- 10 GB de dados armazenados.
+- Custo: $0.026 por GB por mês.
+- Total: 10 * $0.026 = **$0.26**
+
+### **4. Cloud CDN**
+- 10 GB de dados entregues.
+- Custo: $0.005 por GB.
+- Total: 10 * $0.005 = **$0.05**
+
+### **5. Apigee (API Management)**
+- Assumindo 100 execuções por dia (simplificação para este cálculo).
+- Custo: $0.01 por milhões de chamadas de API.
+- Total: 0.003 * $0.01 = **$0.00003**
+
+### **6. Identity Platform (User Authentication)**
+- Assumindo 100 autenticações por dia (simplificação para este cálculo).
+- Custo: $0.005 por milhões de autenticações.
+- Total: 0.003 * $0.005 = **$0.000015**
+
+### **7. Secret Manager (Credentials)**
+- Assumindo 10 MB de dados (simplificação, 1 GB = 1024 MB).
+- Custo: $0.10 por GB por mês.
+- Total: (10 / 1024) * $0.10 = **$0.000976**
+
+### **8. Cloud Pub/Sub (Event-Driven Messaging)**
+- Assumindo 100 mensagens por dia (simplificação para este cálculo).
+- Custo: $0.40 por milhões de mensagens.
+- Total: 0.003 * $0.40 = **$0.0012**
+
+### **9. Cloud Tasks (Asynchronous Task Queue)**
+- Assumindo 100 tarefas por dia (simplificação para este cálculo).
+- Custo: $0.10 por milhões de tarefas.
+- Total: 0.003 * $0.10 = **$0.0003**
+
+### **10. Cloud Load Balancing**
+- 10 GB de dados entregues.
+- Custo: $0.10 por GB.
+- Total: 10 * $0.10 = **$1.00**
+
+### **11. Cloud Armor (Security)**
+- 10 GB de dados protegidos.
+- Custo: $0.10 por GB.
+- Total: 10 * $0.10 = **$1.00**
+
+### **12. Monitoring & Logging (Cloud Monitoring & Cloud Logging)**
+- Assumindo 10 GB de dados monitorados e registrados.
+- Custo: $0.10 por GB.
+- Total: 10 * $0.10 = **$1.00**
+
+### **Total Estimado:**
+Soma de todos os custos:
+$0.0006 + $1.80 + $0.26 + $0.05 + $0.00003 + $0.000015 + $0.000976 + $0.0012 + $0.0003 + $1.00 + $1.00 + $1.00 = **$6.112121**
+
+Portanto, o faturamento estimado para um mês de uso dessa estrutura no Google Cloud Platform seria aproximadamente **$6.11**. Essa é uma estimativa simplificada e os custos reais podem variar com base no uso específico e nas políticas de preços atuais da Google Cloud.
+
+## **6. Conecte-se comigo:**
+
+👨🏾‍💻[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leanderson-dias-de-lima/)
