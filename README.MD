@@ -95,7 +95,7 @@ Caso não esteja visualizando a organização da estrutura [clique aqui](GCP.png
 
 ## **5. Orçamento:**
 
-Para calcular o faturamento mensal do uso dessa estrutura no Google Cloud Platform, precisamos considerar os preços atuais dos serviços utilizados. Aqui está uma estimativa aproximada com base nos serviços mencionados:
+Para calcular o faturamento mensal do uso dessa estrutura no Google Cloud Platform, precisamos considerar os preços atuais dos serviços utilizados. Aqui está uma estimativa aproximada:
 
 ### **5.1 Cloud Functions (Python Backend)**
 - 100 execuções por dia = 3000 execuções por mês.
@@ -161,7 +161,7 @@ Para calcular o faturamento mensal do uso dessa estrutura no Google Cloud Platfo
 Soma de todos os custos:
 $0.0006 + $1.80 + $0.26 + $0.05 + $0.00003 + $0.000015 + $0.000976 + $0.0012 + $0.0003 + $1.00 + $1.00 + $1.00 = **$6.112121**
 
-Portanto, o faturamento estimado para um mês de uso dessa estrutura no Google Cloud Platform seria aproximadamente **$6.11**. Essa é uma estimativa simplificada e os custos reais podem variar com base no uso específico e nas políticas de preços atuais da Google Cloud.
+Portanto, o faturamento estimado para um mês de uso dessa estrutura seria aproximadamente **$6.11**.
 
 ## **6. Conecte-se comigo:**
 
