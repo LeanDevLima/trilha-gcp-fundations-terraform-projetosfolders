@@ -166,3 +166,5 @@ Portanto, o faturamento estimado para um mês de uso dessa estrutura seria aprox
 ## **6. Conecte-se comigo:**
 
 👨🏾‍💻[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leanderson-dias-de-lima/)
+
+👨🏾‍💻[![GCP](https://img.shields.io/badge/GOOGLE_CLOUD_PLATAFORM-Skill_Boost-blue)](https://www.cloudskillsboost.google/public_profiles/ee011706-bdda-4125-ac3a-586ff484e740)
